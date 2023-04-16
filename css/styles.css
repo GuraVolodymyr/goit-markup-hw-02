@@ -150,6 +150,9 @@ body{
 .team-member {
   color: var(--main-bacground-color);
 }
+.team-list{
+    background-color: #FFFFFF;
+}
 .name-text {
   font-family: var(--main-text);
   font-style: normal;
