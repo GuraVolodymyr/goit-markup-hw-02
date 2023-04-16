@@ -1,3 +1,27 @@
-body{
-   
+:root {
+  --title-color: #2e2f42;
+  --text-color: #434455;
+  --button-text-collor: #4d5ae5;
+  --button-bacground-collor: #f4f4fd;
+  --main-text: Roboto;
+  --Logo-text: Raleway;
+  --hover-color: #404bbf;
+  --main-bacground-color: #ffffff;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  background-color: var(--main-bacground-color);
+}
+.header{
+    background-color: #FFFFFF;
+}
+.studioword{
+    color: #4D5AE5;
 }
