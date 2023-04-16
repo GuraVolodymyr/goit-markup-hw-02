@@ -14,10 +14,10 @@
 .list {
   list-style: none;
 }
-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--text-color);
-  background-color: var(--main-bacground-color);
+body{
+    font-family: "Roboto", sans-serif;
+    color:#434455;
+    background-color: #FFFFFF ;
 }
 .header {
   background-color: #ffffff;
