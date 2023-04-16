@@ -22,6 +22,93 @@ body {
 .header{
     background-color: #FFFFFF;
 }
-.studioword{
-    color: #4D5AE5;
+/* LOGO */
+.studioword {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
 }
+.logo-link {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+  }
+  /* Navigation */
+  .nav-list .link {
+    list-style: none;
+    font-family: var(--main-text);
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    text-decoration: none;
+  }
+  .nav-list .link:hover,
+  .nav-list .link:focus {
+    color: var(--hover-color);
+    text-decoration: underline;
+  }
+  /* Address */
+  .address {
+    font-style: normal;
+  }
+  .contact-link {
+    font-family: var(--main-text);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  .contact-link:hover,
+  .contact-link:focus {
+    color: var(--hover-color);
+  }
+  /* Hero section */
+  .hero {
+    background: #2e2f42;
+  }
+  .hero-title {
+    font-weight: 800;
+    font-family: var(--main-text);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+  .button {
+    background: #4d5ae5;
+    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .button:hover,
+  .button:focus {
+    background: var(--hover-color);
+  }
