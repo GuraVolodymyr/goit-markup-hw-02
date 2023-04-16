@@ -148,11 +148,9 @@ body{
   background-color: #f4f4fd;
 }
 .team-member {
-  color: var(--main-bacground-color);
+    background: var(--main-bacground-color);
 }
-.team-list{
-    background-color: #FFFFFF;
-}
+
 .name-text {
   font-family: var(--main-text);
   font-style: normal;
